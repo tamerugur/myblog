@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap");
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  min-width: 700px;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-family: "Roboto", Courier, monospace;
+  background-color: white;
+  overflow: hidden;
+  position: relative;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 60%;
+  position: relative;
+  background-color: blue;
+  overflow: hidden;
+}
+
+.test {
+  width: 200%;
+  height: 100%;
+  background-color: pink;
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(4, 100%);
+}
+
+.test-1 {
+  background-color: black;
+}
+
+.test-2 {
+  background-color: blue;
+}
+
+.test-3 {
+  background-color: red;
+}
+
+.test-4 {
+  background-color: white;
+}
